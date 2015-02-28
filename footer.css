@@ -1,0 +1,28 @@
+p{
+	font-size: 13px;
+	opacity: 0.5;
+}
+
+h4{
+	margin-top: 2px;
+	opacity: 0.5;
+}
+
+.social{
+	display: inline;
+	margin-right: 5px;
+}
+
+.about1, .about2, .about3{
+	float:left;
+	padding-top: 3px;
+	padding-right: 100px;
+	line-height: 2px;
+	padding-left: 20px;
+}
+
+.img{
+	margin-right: 5px;
+	float:right;
+	padding-top: 10px;
+}

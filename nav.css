@@ -1,10 +1,17 @@
+.company{
+    font-size: 40px;
+    clear: both;
+    float: left;
+    color:#f30c3c;
+}
+
 .button{
 	padding:10px 10px;
-	border:1px solid white;
+	border:1px solid #FDC9BB;
 	text-decoration: none;
 	border-radius: 5px;
-	background-color: white;
-	color:black;
+	background-color: #FDC9BB;
+	color:#74d600;
 	width: 130px;
 	height: 15px;
 	display: inline;
@@ -22,6 +29,9 @@
 }
 
 .button:hover{
-	background-color:black;
+	background-color:#74d600;
 	color:white;
 }
+
+
+
