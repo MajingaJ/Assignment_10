@@ -100,3 +100,90 @@ span{
     background-color: #74d600;
     border: 1px solid #74d600;
 }
+
+.loc{
+    font-size: 30px;
+    opacity: 0.5;
+    clear:both;
+    float:left;
+}
+
+.loc2{
+    font-size: 30px;
+    opacity: 0.5;
+    float:right;
+}
+
+.tq, .fd, .uq{
+    width: 850px;
+    height: 350px;
+    padding: 50px;
+    border: 1px solid #FDC9BB;
+    margin: 0 auto; 
+}
+
+.tq2, .fd2, .uq2{
+    width: 850px;
+    height: 350px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    opacity: 0.5;
+    position: center;
+}
+
+.tq:hover{
+    background : url(time_square.png) no-repeat;
+}
+
+.fd:hover{
+    background : url(financial_district.png) no-repeat;
+}
+
+.uq:hover{
+    background : url(union_square.png) no-repeat;
+}
+
+.tq2:hover{
+    color:#f30c3c;
+}
+
+.fd2:hover{
+    color:#f30c3c;
+}
+
+.uq2:hover{
+    color:#f30c3c;
+}
+
+.map1{
+    font-size: 30px;
+    opacity: 0.5;
+    width: 850px;
+    height:25px;
+    padding: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.map2{
+    font-size: 30px;
+    width:850px;
+    height:25px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text{
+    font-size: 15px;
+    padding:10px;
+    width:500px;
+}
+
+.submit{
+    width:100px;
+    padding:10px;
+}
+
+
+
