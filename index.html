@@ -1,118 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-        <style>
-          .center {
-            width: 980px;
-            height: 1000px;
-            padding: 20px;
-            margin: 0 auto;
-            background-color: white;
-            position: relative;
-          }
-          .header {
-            width: 978px;
-            height: 150px;
-            border: 1px solid black;
-            margin: 0 auto;
-            background-color: white;
-            position: relative;
-            opacity: .5;
-          }
-          .content {
-            width: 978px;
-            height: 500px;
-            border: 1px solid black;
-            margin: 0 auto;
-            background-color: blue;
-            position: relative;
-            opacity: .5;
-          }
-          .title {
-            width: 978px;
-            height: 75px;
-            border: 1px solid black;
-            margin: 0 auto;
-            background-color: yellow;
-            position: relative;
-            opacity: .5;
-          }
-         .nav {
-            width: 200px;
-            height: 120px;
-            border: 1px solid black;
-            background-color: yellow;
-            position: absolute;
-            bottom: 10px; /* important */
-            right: 10px; /* important */
-          }
-          .footer {
-            width: 978px;
-            height: 100px;
-            margin: 0 auto;
-            background-color: grey;
-            position: absolute;
-            bottom: 0;
-          }
-          ul {
-            background-color: yellow;
-          }
-          li{
-            list-style: none;
-            margin: 5px;
-            display: inline-block;
-          }
-          a{
-            color: grey;
-        }
-          </style>
-
+        <link type="text/css" rel="stylesheet" href="css/nav.css" />
+        <link type="text/css" rel="stylesheet" href="css/footer.css" />
+        <link type="text/css" rel="stylesheet" href="css/cupcakes.css" />
+        <title>Baked by Leo</title>
     </head>
 
 
-        <body>
-            <div class="center"> <!-- Wrapper Div -->
+    <body>
+        <div class="center">
+            <div class="header">
+                <div class="company"><img height="12%" width="12%" src="images/logo/baked.png">Baked by Leo</div>
+                 <nav>
+                    <ul id="ulnav">
+                        <li class="nav"><a href="index.html" class="button">About</a></li>
+                        <li class="nav"><a href="cupcakes.html" class="button">Cupcakes</a></li>
+                        <li class="nav"><a href="ecard.html" class="button">E-Cards</a></li>
+                        <li class="nav"><a href="location.html" class="button">Locations</a></li>
+                     </ul>
+                </nav>
+            </div>
+        
+            <div class="content">
+                        <div class="content">
+                            <!-- <img src="images/logo/baked.png"> -->
 
-
-                            <div class="header">
-                                <h1> Baked by Leo</h1>
-                            
-                            <div class="nav">
-                                     <ul>
-                                        <li><a href="#section1">Level 4</a></li>
-                                        <li><a href="#section2">Level 3</a></li>
-                                        <li><a href="#section3">Level 2</a></li>
-                                        <li><a href="#section4">Level 1</a></li>
-                                    </ul>
-                            </div>
+                                This is the place holder
                         </div>
-                             <div class="content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat turpis at arcu auctor, ut egestas tellus vehicula. Ut tincidunt, sem a dictum fringilla, tortor dui tincidunt leo, eget bibendum urna nulla vitae justo. Vivamus at vestibulum tortor. Suspendisse rhoncus tortor ipsum, at dignissim diam tempor vitae. Quisque tempus fringilla nunc ut scelerisque. Pellentesque condimentum felis odio, at fermentum sapien feugiat ac. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi lacinia quam sed nunc rhoncus maximus. Nam eget nunc a ligula sodales blandit a ac risus. Nam tempus interdum volutpat. Sed ut nunc pellentesque, gravida arcu at, ultricies quam. In dapibus in justo et tempus. Nullam dapibus risus nisl, ut fermentum ex consectetur sit amet.
-
-                                Suspendisse vehicula augue vel egestas aliquet. Nulla dictum lacus congue mauris sollicitudin, in porta ligula molestie. Phasellus sem purus, efficitur ut odio non, mollis auctor sem. Nunc in nibh aliquet, pretium purus ultricies, convallis justo. Donec ac sagittis ligula. Vivamus non arcu in dolor vestibulum posuere ac ac risus. Proin vestibulum nisi nisl, quis aliquet nulla auctor at.
-
-                                Proin fringilla volutpat nunc non ultrices. Fusce fringilla, mauris non suscipit elementum, quam odio fermentum neque, mattis volutpat elit dui eget ligula. Curabitur in neque et tellus lacinia finibus at a arcu. Morbi lorem mi, lacinia a nisi ac, porttitor volutpat dui. Maecenas sit amet velit ut lacus sollicitudin ullamcorper. Mauris dignissim erat non urna rhoncus tincidunt. Nulla sed velit eget nibh porta tempor in at lacus. Suspendisse ac rutrum ipsum. Quisque et felis justo. Donec ipsum elit, placerat eget mollis in, lacinia ac felis. Vivamus id justo euismod, vestibulum ante vitae, eleifend mauris. Cras tempor nisl sit amet risus pulvinar laoreet. Maecenas tortor augue, dictum sit amet sem ac, hendrerit sodales dui. Sed tempor augue risus. Donec elementum odio ut finibus pretium.
-
-
-                            </div>
-                             <div class="title">
-
-
-                            </div>
-                            <div class="footer">
-
-
-                            </div>
-
-
-
-
+                
             </div>
 
+        <div class="footer">
+            <div class="about1">
+                <h4>ABOUT</h4>
+                <p>Our Story</p>
+                <p>Contact</p>
+                <p>FAQ</p>
+            </div>
+            <div class="about2">
+                <h4>PRODUCTS</h4>
+                <p>Cupcakes</p>
+                <p>E-Cards</p>
+                <p>Cupcake of the Month</p>
+            </div>
+            <div class="about3">
+                <h4>SERVICES</h4>
+                <p>Order History</p>
+                <p>Track your Order</0>
+            </div>
 
-        </body>
+            <div class="img">    
+                <a href="www.google.com"><img class="social" src="http://www.bakedbymelissa.com/Checkout/images/fb_icon.gif" /></a>
+                <a href="www.google.com"><img class="social" src="http://www.bakedbymelissa.com/Checkout/images/tw_icon.gif" /></a>
+                <a href="www.google.com"><img class="social" src="http://www.bakedbymelissa.com/Checkout/images/Ins_icom.gif" /></a>
+            </div>
+        </div>
 
-
-
+    </body>
 </html>
